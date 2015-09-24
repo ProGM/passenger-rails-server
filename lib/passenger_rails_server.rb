@@ -22,7 +22,11 @@ module Rack
           STDOUT.binmode
           STDERR.binmode
 
-          PhusionPassenger::Standalone.run!(['start'])
+          args = ['start']
+          args += ['-p', options[:Port].to_s] if options[:Port]
+          args += ['--pid-file', options[:pid]] if options[:pid]
+
+          PhusionPassenger::Standalone.run!(args)
         end
 
         def environment

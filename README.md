@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/ProGM/passenger-rails-server/badges/gpa.svg)](https://codeclimate.com/github/ProGM/passenger-rails-server)
+
 # passenger-rails-server
 
 passenger-rails-server is a simple gem that sets the default server for rack (and rails) to [phusion passenger](https://www.phusionpassenger.com/).
