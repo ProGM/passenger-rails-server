@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/passenger-rails-server.svg)](http://badge.fury.io/rb/passenger-rails-server)
 [![Code Climate](https://codeclimate.com/github/ProGM/passenger-rails-server/badges/gpa.svg)](https://codeclimate.com/github/ProGM/passenger-rails-server)
 
 # passenger-rails-server
