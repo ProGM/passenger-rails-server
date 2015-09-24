@@ -24,7 +24,6 @@ module Rack
 
           args = ['start']
           args += ['-p', options[:Port].to_s] if options[:Port]
-          args += ['--pid-file', options[:pid]] if options[:pid]
 
           PhusionPassenger::Standalone.run!(args)
         end
