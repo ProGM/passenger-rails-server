@@ -1,3 +1,6 @@
+# THIS GEM IS OBSOLETE, SINCE PASSENGER >= 5.0.25 IMPLEMENTS THIS NATIVELY.
+# [CHECK ISSUE #1](https://github.com/ProGM/passenger-rails-server/issues/1)
+
 [![Gem Version](https://badge.fury.io/rb/passenger-rails-server.svg)](http://badge.fury.io/rb/passenger-rails-server)
 [![Code Climate](https://codeclimate.com/github/ProGM/passenger-rails-server/badges/gpa.svg)](https://codeclimate.com/github/ProGM/passenger-rails-server)
 
